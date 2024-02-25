@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: #202124;
+    min-height: 100vh ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.top{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+    max-height:40px;
+    padding-top: 1rem;
+    padding-right:1rem ;
+}
+.top .google-lab {
+    display: flex;
+    max-height: 25px;
+    max-width: 25px;
+    border: 1px solid #202124;
+    border-radius: 50%;
+}
+.top .profile{
+    display: flex;
+    max-height: 28px;
+    max-width: 28px;
+    border: 1px solid #202124;
+    border-radius: 50%;
+}
+.top a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+.top a:hover{
+    text-decoration: underline;
+}
+.googles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    
+}
+.google{
+    width: 312px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.s-box{
+    position: relative;
+    margin-top: -8px;
+    margin:0px auto ;
+    background: #202124;
+    width: 430px;
+    text-align: center;
+}
+.s-box .s-input{
+    display: block;
+    height: 12px;
+    padding:13px;
+    color: #e5e7ea;
+    padding-left: 45px;
+    border:1px solid lightgray ;
+    border-radius: 25px;
+    width: 100%;
+    background: #202124;
+}
+.s-input :hover{
+    border: 1px solid grey ;
+}
+.searchicon{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 15px;
+    opacity: .4;
+    top: -6px;
+    left: 12px;
+    cursor: pointer;
+}
+.mic{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 15px;
+    top: -7px;
+    left: 450px;
+    cursor: pointer;
+
+}
+.lens{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-top: 15px;
+    top: -7px;
+    left: 420px;
+    cursor: pointer;
+}
+.button{
+    font-size: 15px;
+    color: #e5e7ea;
+    background-color: #303134;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+footer{
+    background-color: #171717;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer a{
+    color: #e7e9ec;
+    display: inline-block;
+    padding: 12px 11.3px;
+    text-decoration: none;
+    font-size:14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.link{
+    padding-left: 18px;
+}
+.link1{
+    display: flex;
+    border-top: 1px solid #292b2d;
+}
+.link2{
+    padding-left:18.7px;
+    flex: 1;
+}
+.link3{
+    padding-left: 18.7px;
+    padding-right: 12px;
+}
