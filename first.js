@@ -1,1 +1,1 @@
-console.log("abhishek pathak");
+console.log(3 + 3)
