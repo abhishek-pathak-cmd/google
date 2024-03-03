@@ -1,1 +1,4 @@
-console.log(3 + 3)
+let score=123;
+console.log(typeof score);
+
+let AnotherVairiable = string(score);
